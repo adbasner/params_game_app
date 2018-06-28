@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     get '/parameter_guessing_game_url' => 'guessing#find_first_letter'
     get '/number_guessing_game' => 'guessing#guess_the_number'
     get '/segment_param_number_guess/:number' => 'guessing#guess_with_segments'
+    get '/globbing/*junk/:number' => 'guessing#glob_test'
   end
 end

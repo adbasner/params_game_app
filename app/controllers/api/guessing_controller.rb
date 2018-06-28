@@ -40,3 +40,4 @@ class Api::GuessingController < ApplicationController
     render 'globbing.json.jbuilder'
   end
 end
+ 

@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   namespace :api do
     get '/parameter_guessing_game_url' => 'guessing#find_first_letter'
+    get '/number_guessing_game' => 'guessing#guess_the_number'
   end
 end

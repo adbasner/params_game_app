@@ -19,4 +19,9 @@ class Api::GuessingController < ApplicationController
     end
     render 'guess_the_number.json.jbuilder'
   end
+
+  def guess_with_segments
+    @message = "hello"
+    render 'guess_the_segment_number.json.jbuilder'
+  end
 end

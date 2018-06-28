@@ -1,1 +1,1 @@
-json.message_key @message
+json.capital_name @message
